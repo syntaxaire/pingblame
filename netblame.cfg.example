@@ -1,0 +1,4 @@
+[Addresses]
+# Put IP addresses to be pinged here, one per line, like:
+# 127.0.0.1
+# 192.168.0.1
