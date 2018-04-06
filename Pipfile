@@ -5,10 +5,9 @@ name = "pypi"
 
 [packages]
 aioping = "*"
-async-timeout = "*"
+async_timeout = "*"
 aiodns = "*"
-quamash = "*"
-"pyqt5" = "*"
+wxpython = "*"
 
 [dev-packages]
 

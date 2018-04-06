@@ -1,3 +1,7 @@
+[Delay]
+# delay between consecutive pings to the same address, in seconds
+delay = 0.5
+
 [Addresses]
 # Put IP addresses to be pinged here, one per line, like:
 # 127.0.0.1
