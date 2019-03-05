@@ -7,9 +7,15 @@ name = "pypi"
 aioping = "*"
 async_timeout = "*"
 aiodns = "*"
-wxpython = "*"
 
 [dev-packages]
+flake8 = "*"
+pre-commit = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
+
+[scripts]
+lint = "python -m flake8"
+start = "python -m pingblame"
+test = "python -m unittest discover -s pingblame"
